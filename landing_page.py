@@ -36,7 +36,7 @@ def compute_drawdowns(equity_series):
 
 def make_kpi_cards(kpis):
     cols = st.columns(len(kpis))
-    for c, (title, value, delta) in zip(cols, kpis.items()):
+    for c, (title, (value, delta)) in zip(cols, kpis.items()):
         c.metric(label=title, value=value, delta=delta)
 
 
