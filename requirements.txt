@@ -3,3 +3,8 @@ pandas
 numpy
 plotly
 graphviz
+requests
+fastapi
+uvicorn
+stripe
+python-dotenv
