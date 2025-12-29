@@ -297,10 +297,13 @@ if page == 'Subscription & Contact':
 
     st.subheader('Plans & Deliverables')
     st.markdown(
-        "- **Starter ($250/mo)**: Weekly signal pack, access to Streamlit dashboard, monthly performance PDF.
-- **Pro**: Starter + API access, containerized inference, 24/7 alerts.
-- **Enterprise**: Pro + dedicated integration support, licensing, white-labeling options and SLAs."
-    )
+    """
+    - **Starter ($250/mo)**: Weekly signal pack, access to Streamlit dashboard, monthly performance PDF.
+    - **Pro**: Starter + API access, containerized inference, 24/7 alerts.
+    - **Enterprise**: Pro + dedicated integration support, licensing, white-labeling options.
+    """
+)
+
 
     st.markdown('---')
     st.subheader('Why license Project Raymond')
